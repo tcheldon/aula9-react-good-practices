@@ -1,5 +1,8 @@
-# Getting Started with Create React App
+# Prática: Lista de Usuários com Navegação
 
+Esta prática exemplifica como fazer uma listagem de usuários com navegação entre páginas usando [React Router DOM](https://reactrouter.com/en/main) no React.Js.
+
+## Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
