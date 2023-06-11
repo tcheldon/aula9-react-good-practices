@@ -1,13 +1,14 @@
+// (página) componente Item
 function Item({ item, onItemClick }) {
 
-    // callback
+    // identificador de clique
     const handleClick = () => {
         onItemClick && onItemClick(item);
     }
 
     return (
         <li>
-            <p>{item.name}</p>
+            <h4>{item.name}</h4>
             <button type="button" onClick={handleClick}>Ver detalhes</button>
         </li>
     );

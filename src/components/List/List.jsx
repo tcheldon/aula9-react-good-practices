@@ -2,6 +2,7 @@ import Item from "../Item";
 
 function List({ items = [], onItemClick }){
 
+    // manipulador de eventos que lida comm cliques
     const handleItemClick = (item) => {
         onItemClick && onItemClick(item);
     }
@@ -15,7 +16,9 @@ function List({ items = [], onItemClick }){
         <div>
             <h2>Lista de Usuários</h2>
             {/* faz renderizar os vários itens listados*/}
-            <ul>{map}</ul>
+            <ul>
+                {map}
+            </ul>
         </div>
     );
 }
