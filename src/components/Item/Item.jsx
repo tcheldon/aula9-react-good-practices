@@ -3,7 +3,8 @@ function Item({ item, onItemClick }) {
 
     // identificador de clique
     const handleClick = () => {
-        onItemClick && onItemClick(item)
+        onItemClick && onItemClick(item);
+        // test husky
     };
 
     return (
