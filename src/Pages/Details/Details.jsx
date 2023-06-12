@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
-import { users } from "../../data";
+import { useEffect, useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
+import { users } from '../../data';
 
 // (página) componente Details
 const Details = () => {

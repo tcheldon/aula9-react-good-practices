@@ -11,7 +11,7 @@ const Home = () => {
 
     const handleItemClick = (item) => {
         navigate(`/details/${item.id}`);
-    }
+    };
 
     return (
         <div>

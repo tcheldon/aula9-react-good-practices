@@ -1,15 +1,15 @@
-import Item from "../Item";
+import Item from '../Item';
 
 function List({ items = [], onItemClick }){
 
     // manipulador de eventos que lida comm cliques
     const handleItemClick = (item) => {
         onItemClick && onItemClick(item);
-    }
+    };
 
     // função de loop usado em react
     const map = items.map((item) => {
-        return <Item key={item.id} item={item} onItemClick={handleItemClick} />
+        return <Item key={item.id} item={item} onItemClick={handleItemClick} />;
     });
 
     return (

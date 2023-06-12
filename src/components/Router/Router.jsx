@@ -1,5 +1,5 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import { HomePage, ErrorPage, DetailsPage } from "../../Pages";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HomePage, ErrorPage, DetailsPage } from '../../Pages';
 
 const Router = () => {
     return (
