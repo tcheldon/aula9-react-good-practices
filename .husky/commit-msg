@@ -2,7 +2,7 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 echo ""
-echo "Running Husky pre-commit!"
+echo "Running Husky commit-msg!"
 echo ""
 
 npx --no -- commitlint --edit "$1"

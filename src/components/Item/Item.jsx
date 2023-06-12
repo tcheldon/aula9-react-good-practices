@@ -15,4 +15,3 @@ function Item({ item, onItemClick }) {
 }
 
 export default Item;
-// teste 2 commit-msg husky
